@@ -13,3 +13,11 @@
   width: 176px;
   height: auto;
 }
+@media screen and (max-width: 544px) {
+  .header {
+    padding: 24px 0;
+  }
+  .header__logo {
+    width: 140px;
+  }
+}
