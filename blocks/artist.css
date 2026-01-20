@@ -1,0 +1,14 @@
+.artist-info {
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+.artist-info p {
+  margin-top: 4px; /
+}
+.artist-info strong {
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.2em;
+  display: block;
+  margin-bottom: 4px;
+}

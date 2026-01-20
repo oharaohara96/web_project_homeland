@@ -1,0 +1,15 @@
+.nft-button {
+  background-image: linear-gradient(#0278fe, #003a7b);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+.nft-button:hover {
+  opacity: 0.8;
+
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}

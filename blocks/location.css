@@ -1,0 +1,52 @@
+.location-section {
+  margin-bottom: 80px;
+}
+.location-section__title {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 72px;
+
+  line-height: 76px;
+  letter-spacing: 0%;
+}
+.location-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 48px;
+}
+
+.location-header h2 {
+  display: block;
+  margin-bottom: 48px;
+}
+.location-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  width: 100%;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.location-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 48px;
+}
+@media screen and (max-width: 1024px) {
+  .location-section {
+    width: 984.00048828125;
+    height: 3338;
+    opacity: 1;
+    top: 2403px;
+    left: 148px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .location-content {
+    flex-direction: column; /* No celular, o texto DEVE ir para baixo para ser legível */
+    align-items: stretch;
+  }
+}

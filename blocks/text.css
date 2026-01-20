@@ -1,0 +1,17 @@
+.text-box p:first-of-type {
+  margin-top: 0; /
+}
+.text-box {
+  flex: 1;
+  min-width: 0;
+}
+
+.text-box p {
+  font-size: 18px;
+  line-height: 1.63;
+  margin-bottom: 24px;
+  color: #fff; 
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
