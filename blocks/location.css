@@ -27,12 +27,18 @@
   width: 100%;
   flex-direction: row;
   box-sizing: border-box;
+  flex-direction: column;
 }
 .location-name {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 48px;
+}
+.location-column {
+  align-items: flex-end;
+  display: flex;
+  gap: 40px;
 }
 @media screen and (max-width: 1024px) {
   .location-section {
