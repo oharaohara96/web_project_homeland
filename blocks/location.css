@@ -56,4 +56,16 @@
     flex-direction: column; /* No celular, o texto DEVE ir para baixo para ser legível */
     align-items: stretch;
   }
+  .location-column {
+    flex-direction: column; /* Empilha imagem e texto */
+    align-items: flex-start;
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .location-section__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
 }

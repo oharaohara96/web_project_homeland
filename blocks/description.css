@@ -67,3 +67,14 @@
     width: 830px;
   }
 }
+@media screen and (max-width: 544px) {
+  .description {
+    padding-top: 60px;
+  }
+
+  .description__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+}
